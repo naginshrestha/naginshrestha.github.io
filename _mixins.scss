@@ -1,0 +1,21 @@
+@mixin mobile(){
+    @media( width <=480px){
+        @content;
+    }
+}
+
+@mixin tablet(){
+    @media( width <=768px){
+        @content;
+    }
+}
+@mixin laptop(){
+    @media( width <=1024){
+        @content;
+    }
+}
+@mixin extralargescreen(){
+    @media( width <=1200){
+        @content;
+    }
+}
