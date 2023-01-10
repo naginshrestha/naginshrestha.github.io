@@ -19,26 +19,32 @@
   <body>
        
     <!-- dark mode -->
-    <input type="checkbox" id="darkmode" class="dark-mode-checkbox"/>
-    <label for="darmode">
-      <i class="fa-solid fa-circle-half-stroke"></i>
+    <input type="checkbox" id="darkMode" class="dark-mode-checkbox" />
+    <label for="darkMode">
+      <i class="fa-solid fa-circle-half-stroke toggle"></i>
     </label>
 
 
     <div class="wrapper">
       <!-- header section -->
       <header class="flex primary-header">
+        <!-- left -->
         <div class="flex logo">
           <h1>Nagin Shrestha</h1>
           <div>
-            <h3 class="line">Web Developer</h3>
+            <h3 class="line">Xamarin Developer and .Net Maui Developer</h3>
           </div>
         </div>
+        <!-- right -->
+
         <div class="right">
+
+          <!-- three bar icon -->
           <input type="checkbox" id="check" />
-          <label for="check">
-            <i class="fa-solid fa-bars" class="checkBtn"></i>
+          <label for="check" class="checkBtn">
+            <i class="fa-solid fa-bars"></i>
           </label>
+
           <ul class="flex primary-navigation">
             <li>
               <a href="#">Home</a>
@@ -68,13 +74,15 @@
         <div class="right flex">
         <div>
           <h2 class="name"> Nagin Shrestha</h2>
-          <p class="tag">Web front end developer</p>
+          <p class="tag">Xamarin developer</p>
         </div>
     
           <a href="naginshrestha.github.io\Naginresume.pdf" download="">
             <button class="button">
-              Download resume
-              <i class="fa-solid fa-download"></i>
+                <p>Download Resume   <i class="fa-solid fa-download"></i></p> 
+                  
+
+        
             </button>   
           </a>
   
@@ -82,70 +90,74 @@
       </section>
       <!-- info section -->
 
-      <section class="flex section2" >
+      <section class=" flex section2 " >
+
         <div class="flex info-container">
           <div class="flex info-lists">
             <div class="icon-container">
               <i class="fa-solid fa-award"></i>
             </div>
-            <div >
-              <h5>B.E Computer Engineering</h5>
+            <div>
+              <h4>B.E Computer Engineering</h4>
               <p>Graduate</p>
             </div>
           </div>
 
           <div class="info-divider"></div>
 
-          <div class="flex info-lists flex">
+          <div class="flex info-lists1">
             <div class="icon-container">
               <i class="fa-solid fa-award"></i>
             </div>
             <div>
-              <h5>3+ Projects</h5>
+              <h4>3+ Projects</h4>
               <p>Completed</p>
             </div>
           </div>
 
           <div class="info-divider"></div>
 
-          <div class="flex info-lists flex">
+          <div class="flex info-lists2">
             <div class="icon-container">
               <i class="fa-solid fa-award"></i>
             </div>
             <div>
-              <h5>1 Yr Coding</h5>
+              <h4>3 Yr Coding</h4>
               <p>Experience</p>
             </div>
           </div>
         </div>
       </section>
+
+
       <!-- skills section -->
 
       <section class="section3 flex" id="Skill">
         <div class="skills-container flex">
-          <div class="flex">
-            <i class="fa-brands fa-html5"></i>
-            <span>HTML</span>
+
+          <div class="flex html">
+            <img src="./assets/html.png"  alt=""/>
+            <p>HTML</p>
           </div>
 
-          <div class="flex">
-            <i class="fa-brands fa-css3"></i>
-            <span>CSS</span>
+          <div class="flex css">
+            <img src="./assets/css.png"  alt=""/>
+            <p>CSS</p>
           </div>
 
-          <div class="flex">
+          <div class="flex js">
             <i class="fa-brands fa-js"></i>
-            <span>JavaScript</span>
+            <p>JavaScript</p>
           </div>
 
-          <div class="flex">
+          <div class="flex react">
             <i class="fa-brands fa-react"></i>
-            <span>React</span>
+            <p>React</p>
           </div>
 
-          <div class="flex">
+          <div class="flex sass">
             <i class="fa-brands fa-sass"></i>
-            <span>Sass</span>
+            <p>Sass</p>
           </div>
        
           <div class="flex">
@@ -163,8 +175,10 @@
       <!-- project section -->
 
       <section class="section4 flex " id="project">
-        <h1 class="ProjTitle">Project</h1>
+        <h1 class="ProjTitle">My Projects</h1>
+
         <div class="projects-container grid">
+
         <div class="project-card flex">
           <div class="topimg">
             <img src="./assets/kothaapp.jpeg" alt=""/>
@@ -178,25 +192,28 @@
 
         <div class="project-card flex">
           <div class="topimg">
-            <img src="./assets/mbaapp.jpeg" alt=""/>
+            <img src="./assets/pulse.webp" alt=""/>
           </div>
 
           <div class="buttontitle">
             <p>Mar 1,2021</p>
-            <p>MBA Soiution Nepal</p>
+            <p>Pulse Nightlife</p>
           </div>
         </div>
 
         <div class="project-card flex">
           <div class="topimg">
-            <img src="./assets/pulse.webp" alt=""/>
+            <img src="./assets/mbaapp.jpeg" alt=""/>
           </div>
 
           <div class="buttontitle">
+          
             <p>Aug 5,2022</p>
-            <p>Pulse Nightlife</p>
+            <p>MBA Soiution Nepal</p>
           </div>
         </div>
+
+     
       </div>
       </section>
       <!-- about me section -->
@@ -214,12 +231,12 @@
           <div class="right flex">
             <h1>Nagin Shrestha</h1>
             <p>It's me Nagin.I grew up in Nepal and currently located in sydney, Australia.</p>
-            <p>Sydney,Australia</p>
+            <p>Auburn, Sydney, Australia</p>
 
             <a href="">Connect with me</a>
 
             <div class="flex">
-              <div class="tag">Intrest</div>
+              <div class="tag">Interests</div>
 
               <div>
                 <span>Coding</span>
@@ -286,7 +303,7 @@
           </div>
 
           <div class="footer-bottom flex">
-            <h1>Nagin | Front end Developer</h1>
+            <h1>Nagin | Mobile App Developer</h1>
 
             <p>&copy; | All right reserved</p>
               
