@@ -759,11 +759,11 @@ p{
 
         a 
         {
-          color: grey;
+          color: rgb(153, 153, 153);
         }
         .send
         {
-          color: #FFFFFF;
+          color: var(--body-bg);
         }
       }
       }

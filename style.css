@@ -576,10 +576,10 @@ section {
   cursor: pointer;
 }
 .section6 .email-selection .email a {
-  color: grey;
+  color: rgb(153, 153, 153);
 }
 .section6 .email-selection .email .send {
-  color: #FFFFFF;
+  color: var(--body-bg);
 }
 
 footer {
